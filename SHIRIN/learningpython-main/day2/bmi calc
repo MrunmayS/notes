@@ -1,0 +1,6 @@
+x=float(input("ht\n"))
+y=int(input("wt\n"))
+z=x**2
+print("bmi\n")
+print (int(y/z))
+

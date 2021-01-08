@@ -1,0 +1,12 @@
+#this program says hello and asksks fot my name
+print('Hey')
+print('what is your name')
+myname=input()
+print('nice to meet you ' + myname)
+print('the length of your name is')
+print(len(myname))
+print('what is your age')
+age=input()
+print ('You will be ' + str((int(age) + 1)) + " in a year")
+#input always returns string value
+

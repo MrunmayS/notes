@@ -1,0 +1,6 @@
+spam=0
+while spam<5:
+    print("hello")
+    spam=spam+1
+    #keeps looping till condition is no longer true so 5 times
+    

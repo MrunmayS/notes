@@ -1,0 +1,70 @@
+POSTGRE SQL-OPEN SOURCE
+
+Use terminal or command line to work with databases
+ 
+Database?
+Place where you can store manipulate and retrieve data
+Usually this data stored inside of computer server
+ Eg:facebook 
+They store a lot of info about us in database
+ POSTGRE
+Database engine
+SQL
+Structured query language
+
+SQL-
+Programming language
+That allows us to have commands like this
+
+SELECT first_name FROM person
+Select-actual sql command
+Then we to specify some column
+FROM reserved for SQL
+Person-actual table name
+ SQL-manage data in relational database
+
+HOW DATA IS STORED?
+Stored in tables
+Formed by columns and rows
+
+RELATIONAL DATABASE-relation between one more tables
+Like table called person and car
+ Most popular SQL is postgres SQL
+ 
+Our computer acting as server and anyone can access it and view content
+First way to connect to database GUI client
+Second way terminal
+Third way using application 
+You write a server side application where you connect database and return that data to your client make data look nice on screen
+
+Datagrip best database clien-paid
+So wont use
+
+POSTICO-free 10/10
+windows-pgAdmin
+
+To bash profile add
+iTerm2
+Oh my zsh
+
+ADD TO TERMINAL ON MAC
+Sql shell connect to server
+-Here put remote server or local server
+
+To connect to local database refer again
+
+PG ADMIN
+Severs
+Postgresql 11
+Password
+
+CREATE DATABSE
+ How to quite
+\q
+Help
+\?
+\l
+Lists all databases in computer
+ 
+CREATE DATABASE name:
+End with : or wont execute command

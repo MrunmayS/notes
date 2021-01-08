@@ -1,0 +1,27 @@
+we can do multiplication addition and all that with vectors
+ vec<-c(5,6,7,8)
+> vic<-c(1,2,3,4)
+> vec*vic
+[1]  5 12 21 32
+> vec-vic
+[1] 4 4 4 4
+> vec+vic
+[1]  6  8 10 12
+> vec/vic
+[1] 5.000000 3.000000 2.333333 2.000000
+> you can find mean and median and standard deviation
+for ref on r google r ref card 2.0
+ mean(vec)
+[1] 6.5
+> median(vec)
+[1] 6.5
+> sd(vec)
+[1] 1.290994
+> sum(vec)
+[1] 26
+ prod(vec)
+[1] 1680
+> min(vec)
+[1] 5
+> max(vec)
+[1] 8

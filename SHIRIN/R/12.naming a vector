@@ -1,0 +1,25 @@
+how to check if something has attributes
+attributes(vector name)
+null signifies empty
+
+> age<-c(18,19,29,21)
+> attributes(age)
+NULL
+how to add attribute
+names(x)<-c(m,j,j,k,)
+
+> names(age)<- c("shir", "pop", "hi", "macy") 
+> age
+shir  pop   hi macy 
+  18   19   29   21 
+> attributes(age)
+$names
+[1] "shir" "pop"  "hi"   "macy"
+
+how to rename a vector
+
+names(age)<-c("te","ss","a","o")
+how to remove names
+names(age)<-NULL
+> age
+[1] 18 19 29 21

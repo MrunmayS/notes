@@ -1,0 +1,13 @@
+vec and vic have same length
+3 values 
+vec 3 values match perfectly with vic 3 values
+but this isnt always case
+vector recycling
+basically you repeat the shorter vector till 2 vector equal in length
+then and only then r carries out operation
+ so if you have one vector from 1 to 10
+ and other vector from 1 to 5
+ then r will start attaching numbers from one to 5
+ to the end of the shorter vector
+ effictively making it a vector storing seq 12345 12345
+ 

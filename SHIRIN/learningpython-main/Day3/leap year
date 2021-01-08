@@ -1,0 +1,4 @@
+year=input("year: ")
+if int(year)%4==0 and int(year)%100!=0 and int(year)%400:
+  print("leap")
+  

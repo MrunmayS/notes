@@ -1,0 +1,23 @@
+print("Welcome to the love calculator")
+name1=input("your name: ")
+name2=input("her name: ")
+combined_string=name1+name2
+lower=combined_string.lower()
+t=lower.count("t")
+r=lower.count("r")
+u=lower.count("u")
+e=lower.count("e")
+true=t+r+u+e
+l=lower.count("l")
+o=lower.count("o")
+v=lower.count("v")
+e=lower.count("e")
+love=l+o+v+e
+lovz=true+love
+print(lovz)
+if lovz<10 or lovz>90:
+  print("You go together like coke and mentos")
+elif lovz<50 and lovez>40:
+  print("a lovely pair")
+else:
+  print(lovez)

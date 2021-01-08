@@ -1,0 +1,8 @@
+total=0
+for num in range(101):
+    total=total+num
+print(total)
+#repeat it 100 times
+add previous values
+#for loop more consise
+

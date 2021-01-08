@@ -1,0 +1,8 @@
+#while loop is infinite
+#for loop repeates a specific number of times
+print("my name is")
+for i in range(5):
+    print("bop 5 times" + str(i))
+    #prints it 5 times
+    #first time run variable set to zero
+    

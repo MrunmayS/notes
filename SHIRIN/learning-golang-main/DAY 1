@@ -1,0 +1,63 @@
+GOLANG
+if you declare a varibale to hold integer will always hold integer cant put boolean or string cant change
+
+golang.org
+packages link-gives you documentation on all libraries built into go
+go is targetted in building servers and web applications
+help link-for the community
+
+golangbridge.com-golang community
+
+play link-for editor
+
+play.golang.org golang playground
+
+package main
+main is entry point of any application
+import(to import additional libraries) (
+	"fmt"(name of package)
+  fmt allows us to format strings
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+  prints hello playground
+}
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+}
+
+HOW TO DECLARE VARIABLE
+var name type
+can declare inside package and function
+
+func main() {
+	var i int
+	i = 42
+	i=66
+	fmt.Println(i)
+}
+
+comment //
+integer-int
+decimal-float32
+string-string
+
+AT PACKAGE LEVEL
+can create block of variables that are declared together
+block whole section with var block
+var (
+	name     string = "Shirin"
+	age      int    = 19
+	year     int    = 2001
+	favcolor string = "golden"
+)
+
+

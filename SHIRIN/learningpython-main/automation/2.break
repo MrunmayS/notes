@@ -1,0 +1,8 @@
+name=""
+while name !="yourname":
+    print("your name")
+    name=input()
+    if name=="your name":
+        break
+#break stops code
+print('thanks')
